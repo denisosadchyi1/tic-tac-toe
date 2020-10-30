@@ -1,0 +1,40 @@
+body{
+  background: rgba(22, 196, 94, 0.692);
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.block{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.content-wrapper{
+  margin: 200px auto;
+  width: 320px;
+  text-align: center;
+}
+
+.block-wrapper{
+  /* margin: 200px auto; */
+  width: 312px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+span:first-child{
+  color: rgb(202, 48, 202);
+}
+
+span{
+  color: aqua;
+}
+
+span:last-child{
+  color: gold;
+}
